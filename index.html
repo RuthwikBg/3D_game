@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Three.js Game</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #ui { position: absolute; top: 10px; left: 10px; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body>
+    <div id="ui">
+        <div>Time Left: <span id="timeLeft">60</span> seconds</div>
+        <div>Score: <span id="score">0</span></div>
+    </div>
+    <div id="instructions">
+        <h2>Game Instructions</h2>
+        <p>Click on the objects to score points.</p>
+        <p>The game lasts for 60 seconds - try to score as much as you can!</p>
+        <button id="startButton">Start Game</button>
+    </div>
+    <script src="./three.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
